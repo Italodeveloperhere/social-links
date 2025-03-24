@@ -30,6 +30,9 @@ body {
   flex-direction: column;
 }
 
+.container img {
+  border-radius: 50%;
+}
 .location {
   color: yellow;
   margin-top: 0;
