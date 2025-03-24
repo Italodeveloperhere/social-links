@@ -21,7 +21,7 @@ body {
 
 .container {
   text-align: center;
-  background-color: #1f1919;
+  background-color: hsl(0, 0%, 20%);
   margin: auto;
   display: flex;
   width: 400px;
