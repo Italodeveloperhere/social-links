@@ -1,0 +1,52 @@
+/*global settings*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.worker {
+  padding-top: 10px;
+}
+
+.container {
+  text-align: center;
+  background-color: #1f1919;
+  margin: auto;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.location {
+  color: yellow;
+  margin-top: 0;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  padding: 10px;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+.links a {
+  background-color: #242222;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+}
